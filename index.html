@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home page</title>
+
+	<!-- meta tags -->
+	<meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content=" " name="description">
+    <meta content="" name="author">
+    <!-- link sheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" crossorigin="anonymous">
+    <!-- full page plugin -->
+  	<link rel="stylesheet" href="css/fullpage.css">
+  	 <!-- style sheets + custom style sheet-->
+  	<link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/myfonts.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  	<link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="menu-wrap">
+	    <input type="checkbox" class="toggler">
+	    <div class="hamburger"><div></div></div>
+	    <div class="menu">
+	      <div>
+	        <div>
+	           <ul id='menu'>
+				 <li  data-menuanchor="part1"><a href="#part1"  style="display: none;"></a></li>
+				 <li  data-menuanchor="part2"><a href="#part2"  style="padding-top: 0px;"><span>OUR SERVICES</span></a></li>
+				 <li  data-menuanchor="part3"><a href="#part3" ><span>OUR COMPANY</span></a></li>
+				 <li  data-menuanchor="part4"><a href="#part4" ><span>SWIFT CONSERVATION</span></a></li>
+				 <li  data-menuanchor="part5"><a href="#part5" ><span>BLOGS</span></a></li>
+				</ul>
+	        </div>
+	      </div>
+	    </div>
+    </div>
+
+    <div>
+		<div class="navimg"><img src="pics/corner.png" ></div>
+	</div> 
+
+
+
+	<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+				   <!-- Modal content-->
+				<div class="modal-content">
+				     <div class="modal-header">
+				       <button type="button" class="close" data-dismiss="modal"  aria-hidden="true" >&times;</button>
+				     </div>
+
+				     <div class="modal-body">
+				       <iframe  id="myvideo" src="https://www.youtube.com/embed/muEJGEQA1Yk" frameborder="0" allow="accelerometer;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+				     </div>
+				</div>  
+			</div>
+		</div>
+
+
+
+   
+   <!--starts from here-->
+
+	<div id="fullpage">
+
+		<!--page1 start-->
+		<section class="section" id="page1">
+
+			<div class=" container-fluid">
+
+				<!--section1 row 1-->
+				<div class="row" style="height: 20vh">
+
+					<div class="col-md-12 col-sm-12 col-xs-12">
+
+						<div class="logobox">
+							<a href="#page1"><img src="pics/logo.png"></a>
+						</div>
+
+
+						 <div class="wingsbox">
+							<img src="pics/wings.png" class="rotate">
+						</div>
+
+					</div>
+
+				</div>
+				<!--end section1 row 1-->
+
+
+				<!--section1 row 2-->
+				<div class="row" style="height: 55vh">
+
+					<div class="col-md-3 col-sm-1 col-xs-1">
+
+						<div  id="maindiv">
+							
+							    <div id="form">
+								  	<form method="get">
+
+									  	<div class="pack"> 
+									  		<i class="fas fa-user-alt"></i>
+										    <input type="text" id="name" placeholder="Name" name="name">
+										</div>
+
+										<div  class="pack"> 
+									  		<i class="fas fa-envelope"></i>
+										    <input type="text" id="email" placeholder="Email" name="email">
+										</div>
+
+										<div class="pack"> 
+									  		<i class="fas fa-phone-alt"></i>
+										    <input type="text" id="pno" placeholder="Phone Number" name="phone">
+										</div>
+
+										<div > 
+										    <input type="text" id="comments" placeholder="Comments here..." name="comm">
+										</div>
+										
+										<button type="submit" id="send">SEND</button>
+										
+									</form>
+								</div>
+									
+							  <button id="mainbutton"  onclick="myfunction()">CONTACT US  &nbsp; +123-456-7890 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="pics/arrow.png" style="transform: rotate(-270deg);"></button>
+						</div>
+
+						<div class="topnav" id="mytopnav" >
+			    			<ul id='menu' style="list-style: none; padding-left: 0;">
+					    		<li  data-menuanchor="part1"><a href="#part1"  style="display: none;"></a></li>
+								<li  data-menuanchor="part2"><a href="#part2"  style="padding-top: 0px;"><span>OUR SERVICES</span></a></li>
+								<li  data-menuanchor="part3"><a href="#part3" ><span>OUR COMPANY</span></a></li>
+								<li  data-menuanchor="part4"><a href="#part4" ><span>SWIFT CONSERVATION</span></a></li>
+								<li  data-menuanchor="part5"><a href="#part5" ><span>BLOGS</span></a></li>
+							</ul>
+					    </div>
+
+					</div>
+
+		
+							
+					<div class="col-md-7 col-sm-7 col-xs-7">
+						<div class="homecontent">
+							<h1 class="mhead">DRONES <span>ARE CHANGING</span> <span class="green">THE WORLD!</span></h1>
+							<p class="description a">Extreme Aerial Photography and Video Artistry for</p>
+							<p class="description">Lifestyle, Action and Commerce</p>
+							<div class="butnbox"><a href="#"><button class="butn">More Info</button></a></div>
+						</div>
+					</div>
+
+					<div class="col-md-2 col-sm-1 col-xs-1"></div> 
+
+				</div> 
+				<!--end section1 row 2-->
+
+
+				<!--section1 row 3-->
+				<div class="row" style="height: 20vh">
+
+					<div class="col-md-12 col-sm-12 col-xs-12 ">
+						<div class="social">
+							<ul>
+							   <li>FOLLOW US:</li>
+							   <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"  id="fb"></i>FACEBOOK</a></li>
+							   <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i>TWITTER</a></li>
+							   <li><a href="https://aboutme.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i>GOOGLE PLUS</a></li>
+						    </ul>
+					   </div>
+					</div>
+
+				</div>
+				<!--end section1 row 3-->
+
+			</div>
+		</section>
+		<!--page1 end-->
+
+
+		<!--page2 start-->
+		<section class="section" id="page2">
+			<div class="container">
+				<div class="row" style=" height:20vh"></div>
+
+				<!--section 2 row2 ends-->
+				<div class="row" style=" height:60vh">
+
+					<div class="col-md-1 col-sm-1"></div>
+
+					<!--center column-->
+					<div class="col-md-9 col-sm-9 col-xs-11">
+						<h1 class="mainhead"><span class="pwhite">Our </span> <span class="green pg">Services</span></h1>
+						<p class="des">Lorem Ipsum is simply dummy text of the printing and typesettin copy Lorem Ipsum is simply dummy text of the printing andmyext of the printing and typese</p>
+
+						<div class="col-md-12 col-sm-12 col-xs-12 mainbox">
+							
+
+
+
+							<div class="col-md-12 col-sm-12 col-xs-12 chotabox">
+								
+								<div class="picturebox">
+									<img src="pics/home.png">
+								</div>
+
+								<div class="detailbox">
+									<li  class="remove"><h2>Estate agents and surveying services</h2></li>
+									<li class="remove"><p>Lorem Ipsum is simply dummy text of the printing and typesettin</p></li>
+									<li class="remove"><p>Lorem Ipsum is simply dummy text of the printing and typesettin</p></li>
+								</div>
+
+							</div>
+
+
+
+
+
+							<div class="col-md-12 col-sm-12 col-xs-12 chotabox">
+								
+								<div class="picturebox">
+									<img src="pics/home2.png">
+								</div>
+
+								<div class="detailbox">
+									<li class="remove"><h2>Business Marketing and promotion</h2></li>
+									<li class="remove"><p>Lorem Ipsum is simply dummy text of the printing and typesettin</p></li>
+									<li class="remove"><p>Lorem Ipsum is simply dummy text of the printing and typesettin</p></li>
+								</div>
+
+							</div>
+
+
+
+
+
+							<div class="col-md-12 col-sm-12 col-xs-12 chotabox">
+								
+								<div class="picturebox">
+									<img src="pics/home3.png">
+								</div>
+
+								<div class="detailbox">
+									<li class="remove"><h2>Private land/home aerial photography</h2></li>
+									<li class="remove"><p>Lorem Ipsum is simply dummy text of the printing and typesettin</p></li>
+									<li class="remove"><p>Lorem Ipsum is simply dummy text of the printing and typesettin</p></li>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+					<!--center column-->
+
+					<div class="col-md-2 col-sm-1 col-xs-1">
+						
+					</div> 
+				</div>
+				<!--section 2 row2 ends-->
+
+				<div class="row" style=" height:20vh"></div>
+		</section>
+		<!--page2 end-->
+
+
+		<!--page3 start-->
+		<section class="section" id="page3">
+			
+			<div class="container">
+				<div class="row" style="height:25vh;"></div>
+				<div class="row" style="height:55vh;">
+					<div class="col-md-1 col-sm-1 col-xs-1"></div>
+					
+					<div class="col-md-9 col-sm-9 col-xs-9">
+
+						<h1 class="pwhite mainhead">Company</h1>
+						<p class="des p1">Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum ext of the printing and typesettin Lorem ext of the printing and typesettin Lorem ext of the printing and typesettin Lorem ext of the printing and typesettin Lorem ext of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin ext of the printing and typesettin Lorem</p>
+
+						<p class="des p2">Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin</p>
+
+						<img src="pics/playbutton.png"  data-toggle="modal" data-target="#myModal" id="playbutton" aria-hidden="true">
+				        <span>WATCH NOW</span>
+
+				        
+					</div>
+					
+				</div>
+				<div class="row" style="height:20vh;"></div>
+
+			</div>
+		</section>
+		<!--page3 end-->
+
+
+		<!--page4 start-->
+		<section class="section" id="page4">
+			<div class="container">
+				<div class="row" style="height:20vh;"></div>
+
+				<div class="row" style="height:60vh;">
+					
+					<div class="col-md-1 col-sm-1 col-xs-1"></div>
+					<div class="col-md-6 col-sm-6 col-xs-6 shrink">
+						<h1 class="pwhite mainhead2">swift <br/><span class="green">conservation</span></h1>
+						<p class="des2 khas">Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum ext of the printing and typesettin Lorem ext of the printing and typesettin Lorem ext of the printing and typesettin Lorem ext of the printing and typesettin Lorem ext of the printin</p>
+						<p  class="des2 khas2">Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum is simply dummy text of the printing and typesettin Lorem Ipsum</p>
+						<a href="#"  style="color: black; text-decoration: none;"><button class="visit">Visit Site</button></a>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-4 pic">
+						<img src="pics/drone.png" id="dronepic">
+					</div>
+
+				</div>
+
+				<div class="row" style="height:20vh;"></div>
+			</div>
+		</section>
+		<!--page4 start-->
+
+
+		<!--page5 start-->
+		<section class="section" id="page5">
+			
+			<div class="container">
+
+				<div class="row" style="height:20vh;"></div>
+
+				<div class="row" style="height:10vh;">
+
+					<div class="offset-md-1 col-md-6 col-sm-6 col-xs-12" style="padding: 0px;">
+					 	<h1 class="pwhite lasthead" >LATEST <span class="green">BLOGS</span></h1>
+					</div>
+
+					<div class="col-md-3 col-sm-3 col-xm-12 controls">
+						<i class='fas fa-chevron-left a-right control-c next slick-next right' id='right'></i>
+						<i class='fas fa-chevron-right a-left control-c prev slick-prev left' id='left'></i>
+					</div>
+
+				</div>
+
+				<div class="row" style="height:60vh;" >
+
+					<i class='fas fa-chevron-left a-right control-c next slick-next right' id='right2'></i>
+
+						<div class="offset-md-1 col-md-11" style="padding: 0px;margin-top: 40px;">
+
+							<div class="slider-content">
+							
+							    <div class="slider-item">
+							    	
+									<div  id="slide1">
+										<div class="dev2">
+											<p id="para1">Lorem Ipsum is simply dummy text</p>
+											<p id="para2">Lorem Ipsum is simply dummy text Ipsum is simply dummy text orem Ipsum is simply dummy text Ipsum</p>
+											<p class="time">1 Hour Ago</p>
+										</div>
+									</div>
+									<div id="slide2">
+										<img src="pics/slide2.png" class="slide2img">
+										<div id="dev3">
+											<p id="pa">Lorem Ipsum is simply dummy text</p>
+											<p id="pb">Lorem Ipsum is simply dummy text Ipsum is simply dummy text</p>
+											<span class="comment"><img src="pics/comment.png">4 comments</span>
+											<span class="like"><img src="pics/like.png">4 Likes</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="slider-item">
+
+									<div  id="slide1">
+										<div class="dev2">
+											<p id="para1">Lorem Ipsum is simply dummy text</p>
+											<p id="para2">Lorem Ipsum is simply dummy text Ipsum is simply dummy text orem Ipsum is simply dummy text Ipsum</p>
+											<p class="time">1 Hour Ago</p>
+										</div>
+									</div>
+									<div id="slide2">
+										<img src="pics/slide2.png" class="slide2img">
+										<div id="dev3">
+											<p id="pa">Lorem Ipsum is simply dummy text</p>
+											<p id="pb">Lorem Ipsum is simply dummy text Ipsum is simply dummy text</p>
+											<span class="comment"><img src="pics/comment.png">4 comments</span>
+											<span class="like"><img src="pics/like.png">4 Likes</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="slider-item">
+
+									<div  id="slide1">
+										<div class="dev2">
+											<p id="para1">Lorem Ipsum is simply dummy text</p>
+											<p id="para2">Lorem Ipsum is simply dummy text Ipsum is simply dummy text orem Ipsum is simply dummy text Ipsum</p>
+											<p class="time">1 Hour Ago</p>
+										</div>
+									</div>
+
+									<div id="slide2">
+										<img src="pics/slide2.png" class="slide2img">
+										<div id="dev3">
+											<p id="pa">Lorem Ipsum is simply dummy text</p>
+											<p id="pb">Lorem Ipsum is simply dummy text Ipsum is simply dummy text</p>
+											<span class="comment"><img src="pics/comment.png">4 comments</span>
+											<span class="like"><img src="pics/like.png">4 Likes</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="slider-item">
+
+									<div  id="slide1">
+										<div class="dev2">
+											<p id="para1">Lorem Ipsum is simply dummy text</p>
+											<p id="para2">Lorem Ipsum is simply dummy text Ipsum is simply dummy text orem Ipsum is simply dummy text Ipsum</p>
+											<p class="time">1 Hour Ago</p>
+										</div>
+									</div>
+									<div id="slide2">
+										<img src="pics/slide2.png" class="slide2img">
+										<div id="dev3">
+											<p id="pa">Lorem Ipsum is simply dummy text</p>
+											<p id="pb">Lorem Ipsum is simply dummy text Ipsum is simply dummy text</p>
+											<span class="comment"><img src="pics/comment.png">4 comments</span>
+											<span class="like"><img src="pics/like.png">4 Likes</span>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+						<i class='fas fa-chevron-right a-left control-c prev slick-prev left' id='left2' ></i>
+				</div>
+
+				<div class="row" style="height:10vh;">
+					<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 offset-xs-1 col-xm-11 copybox">
+						<p class="copyright">Copyright. 2018 . All Right Reserved</p>
+				    </div>
+				</div>	
+		
+			</div>
+		</section>
+		<!--page5 end-->
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--necessary scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="js/fullpage.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrapnotify.min.js"></script>
+    <!-- custom javascript --> 
+    <script type="text/javascript" src="js/custom.js"></script>
+   
+</body>
+</html>
